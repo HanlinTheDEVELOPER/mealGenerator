@@ -1,0 +1,292 @@
+/* @media (maxwidth: 2000px) { */
+    body {
+        background: linear-gradient(45deg, rgb(123, 202, 127), rgb(85, 218, 200));
+        font-family: 'Courier New', Courier, monospace;
+        margin: 0;
+        padding: 20px;
+    }
+    
+    .description {
+        margin-top: 10vh;
+        text-align: center;
+        font: bolder italic x-large Poppins, monospace;
+        background-image: linear-gradient(60deg, rgba(0, 0, 255, 0.8), rgb(83, 167, 57));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .descriptionHeader {
+        user-select: none;
+    }
+    
+    .descriptionText {
+        font-variant: small-caps;
+        font-stretch: ultra-expanded;
+        user-select: none;
+        
+    }
+    
+    .buttonContainer {
+        text-align: center;
+    }
+    
+    .getMealButton {
+        color: rgb(0, 78, 114) !important;
+        background-color: rgb(23, 165, 175);
+        padding:  10px 24px;
+        font-weight: bold;
+        font-size: larger;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        user-select: none;
+    }
+    
+    .getMealButton:hover {
+        padding: 12px 26px;
+        border: 1px solid wheat;
+    }
+    
+    .gotMealUI {
+     padding: 20px;
+    }
+    
+    .gotMealHeader {
+        padding: 8px 0;
+        text-align: center;
+        color: rgb(25, 167, 112);
+        width: 100%;
+        border: 2px solid rgb(25, 167, 112);
+        border-radius: 5px;
+    }
+    
+    .gotMealPhotoParent {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .gotMealPhoto {
+        width: 40%;
+        height: auto;
+    }
+    
+    .textHolder {
+        margin-top: 20px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        color: rgb(4, 150, 94);
+        font-size: large;
+    }
+    
+    .ingredientAndFact {
+        width: 47%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .fact {
+        width: 100%;
+        text-align: center;
+        border: 2px solid rgb(25, 167, 112);
+    }
+    
+    .ingredientsParent {
+        width: 100%;
+        margin-top: 20px;
+        padding: 20px auto;
+        border: 2px solid rgb(25, 167, 112);
+    }
+    
+    .ingredients {
+        list-style: decimal-leading-zero;
+        width: 100%;
+        margin-left: 20px;
+    }
+    
+    .instructionParent {
+        width: 47%;
+        padding: 0 20px;
+        border: 2px solid rgb(25, 167, 112);
+    }
+    
+    .instruction {
+        width: auto;
+    }
+    
+    .videoRecipe {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        color: rgb(4, 150, 94);
+        font-size: x-large;
+    }
+    
+    /* iframe {
+        width: 50%;
+        height: 300px;
+    } */
+    
+    .toTop {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        text-decoration: none;
+        font-size: xx-large;
+    }
+    
+    div > a {
+        color: rgb(4, 150, 94) !important;
+    }
+/* } */
+
+@media (max-width:580px) {
+    body {
+        background: linear-gradient(45deg, rgba(123, 202, 127, 0.7), rgba(85, 218, 200, 0.7));
+        font-family: 'Courier New', Courier, monospace;
+        margin: 0;
+    }
+    
+    .description {
+        margin-top: 10vh;
+        text-align: center;
+        font: bolder italic large Poppins, monospace;
+        background-image: linear-gradient(60deg, rgba(0, 0, 255, 0.8), rgb(83, 167, 57));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .descriptionHeader {
+        user-select: none;
+    }
+    
+    .descriptionText {
+        font-variant: small-caps;
+        font-stretch: ultra-expanded;
+        user-select: none;
+        
+    }
+    
+    .buttonContainer {
+        text-align: center;
+    }
+    
+    .getMealButton {
+        color: rgb(0, 78, 114) !important;
+        background-color: rgb(23, 165, 175);
+        padding:  5px 12px;
+        font-weight: bold;
+        font-size: large;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        user-select: none;
+    }
+    
+    .getMealButton:hover {
+        padding: 6px 13px;
+        border: 1px solid wheat;
+    }
+    
+    .gotMealUI {
+     padding: 10px;
+    }
+    
+    .gotMealHeader {
+        padding: 4px 0;
+        text-align: center;
+        color: rgb(25, 167, 112);
+        width: 100%;
+        border: 2px solid rgb(25, 167, 112);
+        border-radius: 5px;
+    }
+    
+    .gotMealPhotoParent {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .gotMealPhoto {
+        width: 60%;
+        height: auto;
+    }
+    
+    .textHolder {
+        margin-top: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: rgb(4, 150, 94);
+        font-size: medium;
+    }
+    
+    .ingredientAndFact {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .fact {
+        width: 100%;
+        border: 2px solid rgb(25, 167, 112);
+    }
+    
+    .ingredientsParent {
+        width: 100%;
+        margin-top: 10px;
+        padding: 10px auto;
+        border: 2px solid rgb(25, 167, 112);
+    }
+    
+    .ingredients {
+        list-style: none;
+        width: 100%;
+        padding: 0;
+    }
+    
+    .instructionParent {
+        width: 100%;
+        border: 0;
+        margin-top: 10px;
+        padding: 0;
+    }
+    
+    
+    
+    .videoRecipe {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        color: rgb(4, 150, 94);
+        font-size: x-large;
+    }
+    
+    iframe {
+        width: 70%;
+        height: auto;
+    } 
+     
+    .toTop {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        text-decoration: none;
+        font-size: xx-large;
+    }
+    
+    div > a {
+        color: rgb(4, 150, 94) !important;
+    }
+}
